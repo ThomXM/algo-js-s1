@@ -1,8 +1,17 @@
-let MOI = {
-    prenom : 'Thomas',
-    Nom : 'Courtois',
-    age : 18 
+let student = {
+    name: 'Bob',
+    favoriteFood : 'Pizza',
+    city : 'groenland' 
     
 }
-let A = (MOI.prenom +  "", MOI.nom + "", MOI.age)
-console.log(A)
+
+let values = Object.values(student)
+let result = 0
+
+values.forEach((value) => {
+    result += value.length
+
+
+})
+
+console.log( result )

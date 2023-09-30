@@ -1,9 +1,9 @@
-var a = 'jean'
-var b = 'Paul'
-var result 
+let a = 'jean'
+let b = 'Paul'
+let result = checkName(a, b) 
 
 
-function checkname ( Name1, Name2 ) {
+function checkName ( Name1, Name2 ) {
     if ( Name1 == Name2)  {
         return true
     } else { 
@@ -11,5 +11,4 @@ function checkname ( Name1, Name2 ) {
     }
 }
 
-  result = checkname ( Name1, Name2 )
-  console.log(result)
+console.log(result)
