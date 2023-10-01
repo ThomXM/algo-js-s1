@@ -41,7 +41,9 @@ let survivant3 = ""
 let survivant4 = "" 
 let survivant5 = "" 
 
-//
+// Fonctions attaque et dégatsSubit //
+
+
 
 
 
